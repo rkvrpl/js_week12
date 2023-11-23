@@ -9,7 +9,6 @@ const makeOne = () => {
 	const num2 = 10;
 	const result = num1 + num2;
 	resultOne.textContent = result; 
-	console.log(resultOne.textContent);
 };
 
 buttonOne.addEventListener('click', makeOne); //Слушатель уже добавлен
@@ -25,7 +24,6 @@ const makeTwo = () => {
 	const num2 = 7;
 	const result = num1 - num2;
 	resultTwo.textContent = result; 
-	console.log(resultTwo.textContent);
 }
 
 //Добавьте слушатель события
@@ -42,7 +40,6 @@ const makeThree = () => {
 	const num2 = 4;
 	const result = num1 * num2;
 	resultThree.textContent = result; 
-	console.log(resultThree.textContent);
 }
 
 //Добавьте слушатель события
@@ -59,7 +56,6 @@ const makeFour = () => {
 	const num2 = 2;
 	const result = num1 / num2;
 	resultFour.textContent = result; 
-	console.log(resultFour.textContent);
 };
 
 //Добавьте слушатель события
@@ -78,7 +74,6 @@ const makeFive = () => {
 	const power = 4;
 	const result = Math.pow(num, power);
 	resultFive.textContent = result; 
-	console.log(resultFive.textContent);
 };
 
 //Добавьте слушатель события
@@ -95,7 +90,6 @@ const makeSix = () => {
 	const num2 = 5;
 	const result = num1 % num2;
 	resultSix.textContent = result; 
-	console.log(resultSix.textContent);
 };
 
 //Добавьте слушатель события
@@ -112,7 +106,6 @@ const makeSeven = () => {
 	const num2 = 7;
 	const result = num1 % num2;
 	resultSeven.textContent = result; 
-	console.log(resultSeven.textContent);
 };
 
 //Добавьте слушатель события
@@ -128,7 +121,6 @@ const makeEight = () => {
 	const num1 = 123;
 	const result = num1 % 10;
 	resultEight.textContent = result; 
-	console.log(resultEight.textContent);
 };
 
 //Добавьте слушатель события
@@ -144,7 +136,6 @@ const makeNine = () => {
 	const num1 = 4567;
 	const result = num1 % 100;
 	resultNine.textContent = result; 
-	console.log(resultNine.textContent);
 };
 
 //Добавьте слушатель события
@@ -159,7 +150,6 @@ const resultTen = document.querySelector('#resultTen');
 const makeTen = () => {
 	const str = 'Hello';
 	resultTen.textContent = str[2]; 
-	console.log(resultTen.textContent);
 };
 
 //Добавьте слушатель события
@@ -176,7 +166,6 @@ const makeEleven = () => {
 	const num2 = 2;
 	const result = num1 % num2;
 	resultEleven.textContent = Math.abs(result); 
-	console.log(resultEleven.textContent);
 
 };
 
@@ -194,7 +183,6 @@ const makeTwelve = () => {
 	const str2 = 'World!';
 	const result = str1 + str2;
 	resultTwelve.textContent = result; 
-	console.log(resultTwelve.textContent);
 };
 
 //Добавьте слушатель события
@@ -210,7 +198,6 @@ const makeThirteen = () => {
 	const str = 'JavaScript';
 	const result = str.length;
 	resultThirteen.textContent = result; 
-	console.log(resultThirteen.textContent);
 };
 
 //Добавьте слушатель события
@@ -226,7 +213,6 @@ const makeFourteen = () => {
 	const str = 'JavaScript';
 	const result = str.toLowerCase();
 	resultFourteen.textContent = result; 
-	console.log(resultFourteen.textContent);
 };
 
 //Добавьте слушатель события
@@ -242,7 +228,6 @@ const makeFifteen = () => {
 	const str = 'JavaScript';
 	const result = str.toUpperCase();
 	resultFifteen.textContent = result; 
-	console.log(resultFifteen.textContent);
 };
 
 //Добавьте слушатель события
@@ -259,7 +244,6 @@ const makeSixteen = () => {
 	const str = 'JavaScript';
 	const result = str.substring(3);
 	resultSixteen.textContent = result; 
-	console.log(resultSixteen.textContent);
 };
 
 //Добавьте слушатель события
@@ -275,7 +259,6 @@ const makeSeventeen = () => {
 	const str = 'JavaScript';
 	const result = str.substring(3, 7);
 	resultSeventeen.textContent = result; 
-	console.log(resultSeventeen.textContent);
 };
 
 //Добавьте слушатель события
@@ -291,7 +274,6 @@ const makeEighteen = () => {
 	const str = 'Hello, world!';
 	const result = str.replace('world', 'JavaScript');
 	resultEighteen.textContent = result; 
-	console.log(resultEighteen.textContent);
 };
 
 //Добавьте слушатель события
@@ -307,7 +289,6 @@ const makeNineteen = () => {
 	const str = 'Hello, world!';
 	const result = str.substr(7, 6);
 	resultNineteen.textContent = result; 
-	console.log(resultNineteen.textContent);
 };
 
 //Добавьте слушатель события
@@ -323,7 +304,6 @@ const resultTwenty = document.querySelector('#resultTwenty');
 const makeTwenty = () => {
 	const result = Math.max(10, 25, 5, 30, 15);
 	resultTwenty.textContent = result; 
-	console.log(resultTwenty.textContent);
 };
 
 //Добавьте слушатель события
@@ -338,7 +318,6 @@ const resultTwentyOne = document.querySelector('#resultTwentyOne');
 const makeTwentyOne = () => {
 	const result = Math.ceil(Math.random() * 10);
 	resultTwentyOne.textContent = result; 
-	console.log(resultTwentyOne.textContent);
 };
 
 //Добавьте слушатель события
@@ -353,7 +332,6 @@ const resultTwentyTwo = document.querySelector('#resultTwentyTwo');
 const makeTwentyTwo = () => {
 	const result = Math.min(10, 25, 5, 30, 15);
 	resultTwentyTwo.textContent = result; 
-	console.log(resultTwentyTwo.textContent);
 };
 
 //Добавьте слушатель события
@@ -371,7 +349,6 @@ const makeTwentyThree = () => {
 	const num2 = 5;
 	const result = Math.pow(num1, num2);
 	resultTwentyThree.textContent = result; 
-	console.log(resultTwentyThree.textContent);
 };
 
 //Добавьте слушатель события
@@ -386,7 +363,6 @@ const resultTwentyFour = document.querySelector('#resultTwentyFour');
 const makeTwentyFour = () => {
 	const result = Math.min(7, 3, 11, 5, 9);
 	resultTwentyFour.textContent = result; 
-	console.log(resultTwentyFour.textContent);
 };
 
 //Добавьте слушатель события
@@ -401,7 +377,6 @@ const resultTwentyFive = document.querySelector('#resultTwentyFive');
 const makeTwentyFive = () => {
 	const result = Math.max(7, 3, 11, 5, 9);
 	resultTwentyFive.textContent = result; 
-	console.log(resultTwentyFive.textContent);
 };
 
 //Добавьте слушатель события
@@ -417,7 +392,6 @@ const resultTwentySix = document.querySelector('#resultTwentySix');
 const makeTwentySix = () => {
 	const result = Math.random().toFixed(4);
 	resultTwentySix.textContent = result; 
-	console.log(resultTwentySix.textContent);
 };
 
 //Добавьте слушатель события
@@ -434,7 +408,6 @@ const makeTwentySeven = () => {
 	let max = 100;
 	const result = Math.ceil(Math.random() * (max - min) + min);
 	resultTwentySeven.textContent = result; 
-	console.log(resultTwentySeven.textContent);
 };
 
 //Добавьте слушатель события
@@ -450,7 +423,6 @@ const makeTwentyEight = () => {
 	const number = 4.47; 
 	const result = Math.ceil(number);
 	resultTwentyEight.textContent = result; 
-	console.log(resultTwentyEight.textContent);
 };
 
 //Добавьте слушатель события
@@ -466,7 +438,6 @@ const makeTwentyNine = () => {
 	const number = 16; 
 	const result = Math.sqrt(number);
 	resultTwentyNine.textContent = result; 
-	console.log(resultTwentyNine.textContent);
 };
 
 //Добавьте слушатель события
@@ -482,7 +453,6 @@ const makeThirty = () => {
 	const number = 25; 
 	const result = Math.sqrt(number);
 	resultThirty.textContent = result; 
-	console.log(resultThirty.textContent);
 };
 
 //Добавьте слушатель события
